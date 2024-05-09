@@ -11,6 +11,7 @@ app.post('/login', login)
 app.post('/venda', token,venda)
 app.delete('/excluir/:id', excluirProduto)
 app.get('/cliente/:id',detalharCliente)
+console.log('oi')
 
 
 module.exports=app
